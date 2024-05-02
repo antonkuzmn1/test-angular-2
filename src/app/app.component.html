@@ -1,0 +1,431 @@
+<!--
+Copyright 2024 Anton Kuzmin (https://github.com/antonkuzmn1)
+
+Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License.
+-->
+
+<ng-container *ngIf="isMobile; else desktopLayout">
+  <!-- Mobile -->
+
+  <section class="mobile">
+
+    <section class="section-1">
+      <section class="section-1-top">
+        <section class="section-1-top-left">
+          <p>mistaboost</p>
+        </section>
+        <section class="section-1-top-right">
+          <a href="#about" class="section-1-top-right-default">about</a>
+          <a href="#how-to-buy" class="section-1-top-right-default">how to buy</a>
+          <a href="#wall-of-memes" class="section-1-top-right-default">memes</a>
+          <a href="#buy" class="section-1-top-right-red">buy $MrBoost</a>
+        </section>
+      </section>
+      <section class="section-1-content">
+
+        <!--suppress CheckImageSize -->
+        <img class="section-1-content-img-youtube"
+             ngSrc="assets/images/youtube.png"
+             alt="youtube"
+             height="53"
+             width="68">
+
+        <section class="section-1-content-text">
+
+          <h1 class="section-1-content-text-header">$MrBOOST</h1>
+
+          <p class="section-1-content-text-paragraph">subscribe for mems</p>
+
+        </section>
+
+        <!--suppress CheckImageSize -->
+        <img class="section-1-content-img-dude"
+             ngSrc="assets/images/dude-1.png"
+             alt="dude-1"
+             height="75"
+             width="75"
+             priority>
+
+      </section>
+
+      <section class="section-1-content-text-icons">
+
+        <a href="/">
+          <!--suppress CheckImageSize -->
+          <img class="section-1-content-text-icons-telegram"
+               ngSrc="assets/images/logo-telegram.png"
+               alt="telegram"
+               height="54"
+               width="54">
+        </a>
+
+        <a href="/">
+          <!--suppress CheckImageSize -->
+          <img class="section-1-content-text-icons-x"
+               ngSrc="assets/images/logo-x.png"
+               alt="x"
+               height="54"
+               width="54">
+        </a>
+
+        <a href="/">
+          <!--suppress CheckImageSize -->
+          <img class="section-1-content-text-icons-unknown"
+               ngSrc="assets/images/logo-unknown.png"
+               alt="unknown"
+               height="54"
+               width="54">
+        </a>
+
+      </section>
+
+      <section class="section-1-content-text-separate"></section>
+
+    </section>
+
+    <!--suppress XmlDuplicatedId -->
+    <section id="about" class="section-2">
+
+      <!--suppress CheckImageSize -->
+      <img class="section-2-image-dude"
+           ngSrc="assets/images/dude-2.png"
+           alt="dude-2"
+           height="134"
+           width="134">
+
+      <section class="section-2-text">
+        <h1 class="section-2-text-header">Mista BOOST</h1>
+        <p class="section-2-text-paragraph">
+          Mista Boost, is an American <span><a href="/">YouTuber</a></span>, online
+          personality, entrepreneur, and philanthropist. He is known for his fast-paced
+          and high-production videos, which feature elaborate challenges and large
+          giveaways.<span><a href="/">[13]</a></span> With over 250 million
+          subscribers, he is the most-subscribed individual on YouTube and the
+          <span><a href="/">second-most-subscribed channel overall</a></span>.
+        </p>
+      </section>
+
+    </section>
+
+    <!--suppress XmlDuplicatedId -->
+    <section id="how-to-buy" class="section-3">
+
+      <h1 class="section-3-header">HOW TO BUY</h1>
+
+      <!--suppress CheckImageSize -->
+      <img class="section-3-image-money"
+           ngSrc="../assets/images/money-mobile.png"
+           alt="money"
+           height="143"
+           width="90">
+
+      <section class="section-3-text">
+        <section class="section-3-text-block">
+          <h1 class="section-3-text-block-header">
+            GO TO DEDUST OR STON.FI
+          </h1>
+          <p class="section-3-text-block-paragraph">
+            Go to DeDust or STON.fi in Google Chrome, or on the browser
+            inside your <span><a href="/">TonKeeper</a></span> app.
+            Connect your wallet. Type the name (don’t buy DUREVOLD) or
+            paste $MRBOOST token address, and confirm. When Tonkeeper
+            prompts you for a wallet signature, sign.
+          </p>
+        </section>
+        <!--suppress XmlDuplicatedId -->
+        <section id="buy" class="section-3-text-block">
+          <h1 class="section-3-text-block-header">
+            BUY $MRBOOST
+          </h1>
+          <p class="section-3-text-block-paragraph">
+            Swap TON for $MRBOOST. We have zero taxes so you don’t
+            need to worry about buying with a specific slippage,
+            although you may increase it if your transaction fails.
+          </p>
+        </section>
+        <section class="section-3-text-block">
+          <h1 class="section-3-text-block-header">
+            WHERE TO BUY TON?
+          </h1>
+          <p class="section-3-text-block-paragraph">
+            Buy TON with a card in wallets <span><a href="/">Tonkeeper</a></span>
+            or TonSpace. Alternatively, use CEXes such as OKX, Bybit, HTX, KuCoin,
+            etc. Or you can use Uniswap (ETH) or PancakeSwap (BSC). Full list of
+            exchanges is available on <span><a href="/">CoinMarketCap</a></span>.
+          </p>
+        </section>
+        <section class="section-3-text-block">
+          <h1 class="section-3-text-block-header">
+            HOW TO BRIDGE TON?
+          </h1>
+          <p class="section-3-text-block-paragraph">
+            Bridge from any chain to TON using <span><a href="/">bridge.ton.org</a></span>,
+            <span><a href="/">rocketx</a></span> or <span><a href="/">changenow</a></span> or a CEX.
+          </p>
+        </section>
+      </section>
+
+    </section>
+
+    <!--suppress XmlDuplicatedId -->
+    <section id="wall-of-memes" class="section-4">
+
+      <img class="section-4-image-1"
+           ngSrc="assets/images/section-4-1.png"
+           alt="section-4-1"
+           height="1000"
+           width="1000">
+
+
+      <img class="section-4-image-2"
+           ngSrc="assets/images/section-4-2.png"
+           alt="section-4-2"
+           height="1000"
+           width="1302">
+
+      <img class="section-4-image-3"
+           ngSrc="assets/images/section-4-3.png"
+           alt="section-4-3"
+           height="730"
+           width="943">
+
+
+      <img class="section-4-image-4"
+           ngSrc="assets/images/section-4-4.png"
+           alt="section-4-4"
+           height="1000"
+           width="1000"/>
+
+    </section>
+
+    <section class="section-5">
+      <p>
+        $MRBOOST has no association with Mr. Beast. This token is simply a meme coin with no
+        intrinsic value or expectation of financial return.
+      </p>
+      <p>
+        (c) 2024 by mista boost $MRBOOST. All rights reserved.
+      </p>
+    </section>
+
+  </section>
+
+</ng-container>
+
+<ng-template #desktopLayout>
+  <!-- Desktop -->
+
+  <section class="desktop">
+
+    <section class="section-1">
+      <section class="section-1-top">
+        <section class="section-1-top-left">
+          <p>mistaboost</p>
+        </section>
+        <section class="section-1-top-right">
+          <a href="#about" class="section-1-top-right-default">about</a>
+          <a href="#how-to-buy" class="section-1-top-right-default">how to buy</a>
+          <a href="#wall-of-memes" class="section-1-top-right-default">wall of memes</a>
+          <a href="#buy" class="section-1-top-right-red">buy $MrBoost</a>
+        </section>
+      </section>
+      <section class="section-1-content">
+
+        <!--suppress CheckImageSize -->
+        <img class="section-1-content-img-youtube"
+             ngSrc="assets/images/youtube.png"
+             alt="youtube"
+             height="169"
+             width="215">
+
+        <section class="section-1-content-text">
+
+          <h1 class="section-1-content-text-header">$MrBOOST</h1>
+
+          <p class="section-1-content-text-paragraph">subscribe for mems</p>
+
+          <section class="section-1-content-text-icons">
+
+            <a href="/">
+              <!--suppress CheckImageSize -->
+              <img class="section-1-content-text-icons-telegram"
+                   ngSrc="assets/images/logo-telegram.png"
+                   alt="telegram"
+                   height="61"
+                   width="61">
+            </a>
+
+            <a href="/">
+              <!--suppress CheckImageSize -->
+              <img class="section-1-content-text-icons-x"
+                   ngSrc="assets/images/logo-x.png"
+                   alt="x"
+                   height="61"
+                   width="61">
+            </a>
+
+            <a href="/">
+              <!--suppress CheckImageSize -->
+              <img class="section-1-content-text-icons-unknown"
+                   ngSrc="assets/images/logo-unknown.png"
+                   alt="unknown"
+                   height="61"
+                   width="61">
+            </a>
+
+          </section>
+
+          <section class="section-1-content-text-separate"></section>
+
+        </section>
+
+        <!--suppress CheckImageSize -->
+        <img class="section-1-content-img-dude"
+             ngSrc="assets/images/dude-1.png"
+             alt="dude-1"
+             height="474"
+             width="474"
+             priority>
+
+      </section>
+    </section>
+
+    <!--suppress XmlDuplicatedId -->
+    <section id="about" class="section-2">
+
+      <img class="section-2-image-dude"
+           ngSrc="assets/images/dude-2.png"
+           alt="dude-2"
+           height="310"
+           width="310">
+
+      <section class="section-2-text">
+        <h1 class="section-2-text-header">Mista BOOST</h1>
+        <p class="section-2-text-paragraph">
+          Mista Boost, is an American <span><a href="/">YouTuber</a></span>, online
+          personality, entrepreneur, and philanthropist. He is known for his fast-paced
+          and high-production videos, which feature elaborate challenges and large
+          giveaways.<span><a href="/">[13]</a></span> With over 250 million
+          subscribers, he is the most-subscribed individual on YouTube and the
+          <span><a href="/">second-most-subscribed channel overall</a></span>.
+        </p>
+      </section>
+
+    </section>
+
+    <!--suppress XmlDuplicatedId -->
+    <section id="how-to-buy" class="section-3">
+
+      <h1 class="section-3-header">HOW TO BUY</h1>
+
+      <!--suppress CheckImageSize -->
+      <img class="section-3-image-money"
+           ngSrc="../assets/images/money-desktop.png"
+           alt="money"
+           height="219"
+           width="228">
+
+      <section class="section-3-text">
+        <section class="section-3-text-block">
+          <h1 class="section-3-text-block-header">
+            GO TO DEDUST OR STON.FI
+          </h1>
+          <p class="section-3-text-block-paragraph">
+            Go to DeDust or STON.fi in Google Chrome, or on the browser
+            inside your <span><a href="/">TonKeeper</a></span> app.
+            Connect your wallet. Type the name (don’t buy DUREVOLD) or
+            paste $MRBOOST token address, and confirm. When Tonkeeper
+            prompts you for a wallet signature, sign.
+          </p>
+        </section>
+        <!--suppress XmlDuplicatedId -->
+        <section id="buy" class="section-3-text-block">
+          <h1 class="section-3-text-block-header">
+            BUY $MRBOOST
+          </h1>
+          <p class="section-3-text-block-paragraph">
+            Swap TON for $MRBOOST. We have zero taxes so you don’t
+            need to worry about buying with a specific slippage,
+            although you may increase it if your transaction fails.
+          </p>
+        </section>
+        <section class="section-3-text-block">
+          <h1 class="section-3-text-block-header">
+            WHERE TO BUY TON?
+          </h1>
+          <p class="section-3-text-block-paragraph">
+            Buy TON with a card in wallets <span><a href="/">Tonkeeper</a></span>
+            or TonSpace. Alternatively, use CEXes such as OKX, Bybit, HTX, KuCoin,
+            etc. Or you can use Uniswap (ETH) or PancakeSwap (BSC). Full list of
+            exchanges is available on <span><a href="/">CoinMarketCap</a></span>.
+          </p>
+        </section>
+        <section class="section-3-text-block">
+          <h1 class="section-3-text-block-header">
+            HOW TO BRIDGE TON?
+          </h1>
+          <p class="section-3-text-block-paragraph">
+            Bridge from any chain to TON using <span><a href="/">bridge.ton.org</a></span>,
+            <span><a href="/">rocketx</a></span> or <span><a href="/">changenow</a></span> or a CEX.
+          </p>
+        </section>
+      </section>
+
+    </section>
+
+    <!--suppress XmlDuplicatedId -->
+    <section id="wall-of-memes" class="section-4">
+
+      <img class="section-4-image-1"
+           ngSrc="assets/images/section-4-1.png"
+           alt="section-4-1"
+           height="1000"
+           width="1000">
+
+      <section class="section-4-images-1">
+
+        <img class="section-4-images-1-image-2"
+             ngSrc="assets/images/section-4-2.png"
+             alt="section-4-2"
+             height="1000"
+             width="1302">
+
+        <img class="section-4-image-1-image-3"
+             ngSrc="assets/images/section-4-3.png"
+             alt="section-4-3"
+             height="730"
+             width="943">
+
+      </section>
+
+      <img class="section-4-image-4"
+           ngSrc="assets/images/section-4-4.png"
+           alt="section-4-4"
+           height="1000"
+           width="1000"/>
+
+    </section>
+
+    <section class="section-5">
+      <p>
+        $MRBOOST has no association with Mr. Beast. This token is simply a meme coin with no
+        intrinsic value or expectation of financial return.
+      </p>
+      <p>
+        (c) 2024 by mista boost $MRBOOST. All rights reserved.
+      </p>
+    </section>
+
+  </section>
+
+</ng-template>
